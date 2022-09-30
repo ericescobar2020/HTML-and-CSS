@@ -1,0 +1,53 @@
+/* estilos para colores */
+/* en esta pagina podemos encontrar variedades de colores https://coolors.co/ */
+.colores{
+    color:red
+}
+
+.color-hexadecimal{
+    color:#21427D
+}
+
+.color-rgb{     /*Este es un metodo para poder controlar los colores */
+    color: rgb(133, 86, 179)
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.85)
+}
+
+/* Fondos */
+.fondo{
+    /* background-color: blueviolet; */
+    background-image: url("https://i0.wp.com/www.eclixxo.com/wp-content/uploads/2017/05/codigo-css-3.jpg?resize=800%2C333&ssl=1");
+    background-position: center center;
+}
+
+.fondo-interno{
+    background-image: url("imagen/tenis.webp");
+    background-position: left bottom;
+}
+
+/* Tamaños vamos a trabajar con los anchos y largos */
+.ancho {
+    background-color: yellowgreen;
+    width: 100px;
+}
+
+.alto{
+    background-color: aqua;
+    height: 500px;
+    width: 300px;
+}
+
+.tarjetas{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px;  /*estas medidas afecta como si fuera agujas de reloj*/
+    /* padding: 10px 20px 30px 40px; */
+    margin: 10px 20px;
+    /* margin: 10px 20px 30px 40px; */
+
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+html{
+    /* font-family: 'Courier New', Courier, monospace; /*tipo de letra para la pagina */
+    font-family: 'Roboto', sans-serif;
+    font-size:larger; /*El largo de la letra*/
+    font-weight: 100; /*Se pone en negrita */
+}
+/* pagina donde podemos encontrar estilos de letras es: google fonts */

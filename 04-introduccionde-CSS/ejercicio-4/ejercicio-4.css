@@ -1,0 +1,11 @@
+#elemento-1{
+    color: red;
+}
+
+#parrafo-1{
+    color: red;
+}
+
+#elemento-1, #parrafo-1{
+    font-size: 2rem;
+}
