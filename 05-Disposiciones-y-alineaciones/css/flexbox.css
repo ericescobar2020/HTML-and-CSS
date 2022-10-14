@@ -1,0 +1,33 @@
+/*https://codepen.io/enxaneta/full/adlPay*/
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;  /*"espacio"mueve los contenido-1,-2,-3*/
+    /* flex-wrap: wrap1 */
+    align-items: center;
+
+}
+
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3{
+    background-color: rgb(184, 25, 179);
+    /* height: 200px; */
+    width:100px;
+    border: 1px solid rgb(193, 37, 193);
+}

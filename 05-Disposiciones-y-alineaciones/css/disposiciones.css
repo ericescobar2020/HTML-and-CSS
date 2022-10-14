@@ -1,0 +1,20 @@
+.div-1, .div-2{
+    background-color: red;
+    
+}
+
+.tenis {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.span-1{
+    background-color: aquamarine;
+    float: left; /* se usa con inline, mueve en la derecha o izquierda*/
+}
+
+.span-2  {
+    background-color: aquamarine;
+    float: right;
+}
