@@ -1,0 +1,8 @@
+button p:hover{
+    color: white;
+    background-color: green;
+
+}
+ button p::target-text{
+    content: "¡hecho! ";
+ }

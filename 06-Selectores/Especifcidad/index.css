@@ -1,0 +1,16 @@
+h1 {
+    color: blue !important; /*EVITAR ESTA ETIQUETA DE IMPORTANT*/
+}
+
+.h1-clase{
+    color: yellow
+}
+
+h1#h1-id.h1-clase {
+    color: darksalmon;
+}
+
+
+p{
+    color:red
+}

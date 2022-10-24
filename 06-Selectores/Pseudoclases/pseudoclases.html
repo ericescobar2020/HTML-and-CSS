@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudoclases</title>
+    <link rel="stylesheet" href="pseudoclases.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: bisque;
+      }
+
+      .hover:hover{ /*se activa en cuanto el raton pasa por encima*/
+        background-color: burlywood;
+    }
+
+    .listado {
+        padding: 15px;
+        background-color: aquamarine;
+    }
+    .listado p:first-child{
+        color: white;
+
+    }
+    a:link{ /*esot hace referencia a link a no visitados */
+        color:deeppink
+    }
+    a:visited{
+        color: crimson;
+    }
+
+    a:hover {
+        color: pink
+    }
+    a:active{
+        color: greenyellow
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet.</p>
+    </div>
+    <div class="listado">
+        <p>parrafo-1</p>
+        <p>parrafo-2</p>
+        <p>parrafo-3</p>
+        <p>parrafo-4</p>
+    </div>
+    <div class="enlace">
+        <a href="https://brandemia.org/la-marca-rafa-nadal-academy-renueva-su-identidad" target="_blank">enlace</a>
+        <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1UEAD_esAR993AR993&oq=goo&aqs=chrome.1.0i131i355i433i512j46i131i199i433i465i512j0i131i433i512j69i60l2j69i65l3.2277j0j4&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEEUYQTIGCAcQRRhB0gEIMjI3N2owajSoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">google</a>
+
+    </div>
+  </body>
+</html>
