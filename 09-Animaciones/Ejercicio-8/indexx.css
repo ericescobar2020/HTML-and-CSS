@@ -1,0 +1,53 @@
+.btn-modern{
+   
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    box-shadow: 0 0 10px rgb(136, 34, 34);
+
+
+    /* animation */
+    animation-name: mover;
+    animation-duration: 1s;
+    
+    
+
+    
+}
+
+.btn-modern:hover {
+    background-color: rgba(255, 255, 255, 0.983);
+    color: rgba(0, 0, 0, 0.971);
+    transition: background-color 0.4s;
+}
+
+
+@keyframes mover {
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+/* <!-- En el body crea un botón con el atributo class "btn-modern"
+
+-Implementa las líneas necesarias en el CSS para que cuando 
+el ratón pase por encima del botón ocurra lo siguiente (hover):
+
+-El botón se traslade -5px en el eje de las Y
+
+-Se añada una sombra
+
+-El color de fondo del botón cambie
+
+-El color del texto cambie
+
+-Todo esto con una transición de 0.4s --> */
